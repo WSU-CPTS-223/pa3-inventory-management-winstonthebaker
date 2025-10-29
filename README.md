@@ -1,9 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pAwGQi_N)
+Program for viewing inventory by unique ID and by tags.
+Note that all search terms only match exact strings.
 
-# PA4 Skeleton Code
-We expect a fully functioninig command line REPL application for an inventory querying system. Feel free to modify the skeleton code as you see fit.
+Testing functions are implemented in a separate header file, TestHashMap.h.
+I only tested the functions in hashmap.h because the other data structures used were created for a previous assignment.
+It's pretty much self-documenting/commented, but here it is anyway:
 
-### How to run the current skeleton code
-`make` will compile and execute the skeleton code
+insert: tested with normal insertion and a duplicate key (should overwrite the old value).
+find: tested with normal search and a nonexistent key.
+erase: tested with normal deletion and a nonexistent key.
+clear: tested with a map and an empty map.
+rehash: tested with a map and an empty map.
 
-Feel free to modify Makefile as you see fit.
+the other functions are already for debugging purposes and not tested.
+
+NOTE: some of the categories are huge and might not print to a terminal, consider outputting to a file instead.
