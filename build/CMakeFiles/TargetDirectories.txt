@@ -1,0 +1,3 @@
+/home/winstonthebaker/Documents/School/Cpts 223/pa3-inventory-management-winstonthebaker/build/CMakeFiles/InventoryManagement.dir
+/home/winstonthebaker/Documents/School/Cpts 223/pa3-inventory-management-winstonthebaker/build/CMakeFiles/edit_cache.dir
+/home/winstonthebaker/Documents/School/Cpts 223/pa3-inventory-management-winstonthebaker/build/CMakeFiles/rebuild_cache.dir
